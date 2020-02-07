@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Iffy Statement</title>
+  <meta name="description" content="homework">
+  <meta name="author" content="me">
+
+ <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
+ 
+</head>
+<p><input type="checkbox"><button id="userYes">I do intervals!</button></p>
+<p><input type="checkbox"><button id="userNo">No I do not...</button></p>
+<body>
+<script type ="text/javascript">    
+  if (userYes) {
+    document.getElementById("userYes").onclick= function() {   
+      console.log("way to go");
+      }
+  if (userNo) {
+    document.getElementById("userNo").onclick= function() {  
+    console.log("you will regret this!");
+  }
+  }  
+    }
+    </script>
+<!-- so CLOSE but it console logs both statements -->
+<!-- have it where the yes gives way to go. and the no gives way to go... -->
+
+    </body>
+    </html> 
